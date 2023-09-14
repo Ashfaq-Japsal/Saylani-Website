@@ -1,0 +1,218 @@
+.btn1 {
+    width: 120px;
+    height: 55px;
+    background-color: rgb(13, 109, 183);
+    color: white;
+    /* font-size: 0.8rem; */
+}
+
+.btn2 {
+    width: 120px;
+    height: 55px;
+    background-color: rgb(141, 198, 63);
+    color: white;
+    margin-left: 30px;
+}
+
+.wrap1 {
+    width: 50px;
+    height: 40px;
+    word-wrap: break-word;
+    /* border: 1px solid red; */
+}
+
+.wrap2 {
+    width: 60px;
+    height: 40px;
+    word-wrap: break-word;
+    margin-left: 0px;
+    /* border: 1px solid red; */
+}
+
+.wrap3 {
+    width: 70px;
+    height: 40px;
+    word-wrap: break-word;
+    /* border: 1px solid red; */
+}
+
+.wrap4 {
+    width: 70px;
+    height: 40px;
+    word-wrap: break-word;
+    /* border: 1px solid red; */
+}
+
+.text {
+    margin-top: 120px;
+}
+
+.explorer {
+    width: 170px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+div>img.img {
+    width: 100%;
+    height: 100%;
+}
+
+div input {
+    width: 150px;
+    height: 50px;
+}
+
+.extra {
+    background-color: rgb(63, 62, 62);
+    height: 50px;
+    width: 70px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    color: white;
+    padding-top: 12px;
+}
+
+.extra2 {
+    background-color: rgb(63, 62, 62);
+    height: 50px;
+    width: 50px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+    color: white;
+    padding-top: 12px;
+}
+
+.input {
+    display: flex;
+}
+
+.quickdonate {
+width: 180px;
+height: 50px;
+margin-top: 17px;
+}
+
+.quickdonate button{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+background-color: rgb(113, 165, 36);
+color: white;
+border: none;
+}
+
+.bloodbank {
+width: 350px;
+height: 50px;
+}
+
+.bloodbank button{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+background-color: white;
+border: none;
+}
+
+.height {
+    height: 200px;
+    background-color: rgba(172, 255, 47, 0.233);
+}
+
+.kifalat{
+    width: 170px;
+    height: 50px;
+}
+.kifalat button{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+background-color: white;
+border: none;
+}
+
+.medical{
+    width: 140px;
+    height: 50px;
+}
+.medical button{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+background-color: white;
+border: none;
+}
+
+.food{
+    width: 120px;
+    height: 50px;
+}
+.food button{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+background-color: white;
+border: none;
+}
+
+.padding {
+    padding-top: 50px;
+}
+
+.card1 {
+    background-color:rgba(172, 255, 47, 0.233) ;
+    border-radius: 10px;
+    width: 170px;
+    height: 150px;
+    text-align: center;
+}
+
+.card2 {
+    background-color:rgba(172, 255, 47, 0.233) ;
+    border-radius: 10px;
+    width: 170px;
+    height: 150px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.card3 {
+    background-color:rgba(172, 255, 47, 0.233) ;
+    border-radius: 10px;
+    width: 170px;
+    height: 150px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.card4 {
+    background-color:rgba(172, 255, 47, 0.233) ;
+    border-radius: 10px;
+    width: 170px;
+    height: 150px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.card5 {
+    background-color:rgba(172, 255, 47, 0.233) ;
+    border-radius: 10px;
+    width: 170px;
+    height: 150px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.card6 {
+    background-color:rgba(172, 255, 47, 0.233) ;
+    border-radius: 10px;
+    width: 170px;
+    height: 150px;
+    text-align: center; 
+    margin-left: 20px;
+}
