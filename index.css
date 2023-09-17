@@ -1,3 +1,6 @@
+header{
+    background-color: rgb(233, 229, 229) ;
+}
 nav{
 box-shadow: 1px 1px 2px rgb(199, 198, 198);
 }
@@ -546,9 +549,31 @@ margin-left: 4%;
         }
     }
 
-@media screen and (max-width: 575px) {
+@media screen and (min-width: 480px) and (max-width: 575px) {
+    header{
+        background-color: rgb(233, 229, 229) ;
+        height: 65px;
+    }
+    .headerrow{
+        position: relative;
+    }
     .email{
-
+        position: absolute;
+        left: 3%;
+        /* top: 3%; */
+    }
+    .phonenumber{
+        position: absolute;
+        left: 50%;
+        /* bottom: 3%; */
+    }
+    .languages{
+        position: absolute;
+        right: 3%;
+        /* bottom: 0%; */
+    }
+    #dropdownMenuButton1{
+        padding-left: 0%;
     }
     .introimg{
         height: 70%;
@@ -667,5 +692,170 @@ margin-left: 4%;
         }
         .accaimg{
             margin-left: 22%;
+        }
+    }
+
+    @media screen and (max-width: 479px) {
+        header{
+            background-color: rgb(233, 229, 229) ;
+            height: 65px;
+        }
+        .headerrow{
+            position: relative;
+        }
+        .email{
+            position: absolute;
+            left: 3%;
+            font-size: small;
+            /* top: 3%; */
+        }
+        .phonenumber{
+            position: absolute;
+            left: 50%;
+            font-size: small;
+            /* bottom: 3%; */
+        }
+        .languages{
+            position: absolute;
+            right: 3%;
+            padding-left: 0%;
+            /* bottom: 0%; */
+        }
+        #dropdownMenuButton1{
+            padding-left: 0%;
+            font-size: small;
+        }
+        .introimg{
+            height: 70%;
+            margin-top: 10%;
+            display: none;
+        }
+        .text{
+            margin-top: 5%;
+        }
+        .textsize{
+            font-size: medium;
+        }
+        .textsize2{
+            font-size: 0.8em;
+        }
+        .input{
+            width: 95%;
+            margin-top: -4%;
+        }
+        .extra{
+            margin-left: 5%;
+        }
+        .extra3{
+            width: 75%;
+            margin-bottom: 1.5%;
+        }
+        .extra3 input{
+            width: 100%;
+        }
+        .bloodbank{
+            position: absolute;
+            left: 7%;
+            top: 31%;
+            width: 350px;
+        }
+        .kifalat{
+            position: absolute;
+            bottom: 30%;
+            left: 5%;
+            width: 180px;
+        }
+        .height {
+            height: 300px;
+            background-color: rgba(172, 255, 47, 0.233);
+        }
+        .maindetail{
+            position: relative;
+            height: 100%;
+            margin-bottom: 5%;
+        }
+        .medical{
+            position: absolute;
+            bottom: 30%;
+            left: 43%;
+        }
+        .food{
+            position: absolute;
+            bottom: 30%;
+            left: 72%;
+        }
+        .quickdonate{
+            position: absolute;
+            bottom: 8%;
+            left: 7%;
+        }
+            .card1{
+                margin-left: 0%;
+                margin-top: 2%;
+                width: 100%;
+            }
+            .card2,.card3,.card4,.card5,.card6{
+                margin-top: 2%;
+                width: 100%;
+                margin-left: 0%;
+            }
+            .largecards{
+                width: 100%;
+                margin-left: 0%;
+            }
+            .largecardbtn{
+                width: 505px;
+            }
+            .project1,.project2{
+                width: 100%;
+                margin-left: 0%;
+            }
+            .projec1tbox{
+                width: 50%; 
+                height: 42%; 
+            }
+            .figures1{
+                margin-left: 18%; 
+                margin-right: 13%;
+            }
+            .figures2{
+                margin-right: 7%;
+                margin-left: 5%;
+            }
+            .figures3{
+                position: absolute;
+                bottom: 25%;
+                left: 18%;
+            }
+            .figures4{
+                position: absolute;
+                bottom: 25%;
+                left: 57%;
+            }
+            .figurecontainer{
+                background-image: url(images/background\ lue.jpg); 
+                background-repeat:no-repeat;
+                background-size: cover;
+                height: 700px;
+                margin-bottom: 50px;
+                position: relative;
+            }
+            .testimonials{
+                width: 350px; 
+                margin-left: -160px;
+                font-size: small;
+            }
+            .socialaccounts{
+                width: 12%;
+                height: 9%;
+            }
+            .accaimg{
+                margin-left: 22%;
+            }
+    }
+
+    @media screen and (max-width: 539px) {
+        .largecardbtn{
+            width: 400%;
         }
     }
