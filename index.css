@@ -1,3 +1,7 @@
+nav{
+box-shadow: 1px 1px 2px rgb(199, 198, 198);
+}
+
 .btn1 {
     width: 120px;
     height: 55px;
@@ -11,7 +15,7 @@
     height: 55px;
     background-color: rgb(141, 198, 63);
     color: white;
-    margin-left: 30px;
+    margin-left: 35px;
 }
 
 .wrap1 {
@@ -139,6 +143,7 @@ border: none;
 .medical{
     width: 140px;
     height: 50px;
+    margin-left: -2%;
 }
 .medical button{
     width: 100%;
@@ -151,6 +156,7 @@ border: none;
 .food{
     width: 120px;
     height: 50px;
+    margin-left: -2%;
 }
 .food button{
     width: 100%;
@@ -164,55 +170,502 @@ border: none;
     padding-top: 50px;
 }
 
+.smallcards{
+    margin-bottom: 10px;
+}
+
 .card1 {
     background-color:rgba(172, 255, 47, 0.233) ;
     border-radius: 10px;
-    width: 170px;
+    width: 167px;
     height: 150px;
     text-align: center;
 }
 
-.card2 {
+.card2,.card3,.card4,.card5,.card6 {
     background-color:rgba(172, 255, 47, 0.233) ;
     border-radius: 10px;
-    width: 170px;
-    height: 150px;
-    text-align: center;
-    margin-left: 20px;
-}
-
-.card3 {
-    background-color:rgba(172, 255, 47, 0.233) ;
-    border-radius: 10px;
-    width: 170px;
+    width: 167px;
     height: 150px;
     text-align: center;
     margin-left: 20px;
 }
 
-.card4 {
-    background-color:rgba(172, 255, 47, 0.233) ;
-    border-radius: 10px;
-    width: 170px;
-    height: 150px;
-    text-align: center;
-    margin-left: 20px;
+.largecards{
+    width:375px ;
+    height:280px ;
+    margin: 35px 0;
+    position: relative;
+    cursor: pointer;
 }
 
-.card5 {
-    background-color:rgba(172, 255, 47, 0.233) ;
-    border-radius: 10px;
-    width: 170px;
-    height: 150px;
-    text-align: center;
-    margin-left: 20px;
+.largecardbtn{
+    width: 340px;
+    height: 40px;
+    background-color: rgb(141, 198, 63);
+    color: white;
+    border-radius: 5px;
+    border: none;
 }
 
-.card6 {
-    background-color:rgba(172, 255, 47, 0.233) ;
-    border-radius: 10px;
-    width: 170px;
-    height: 150px;
-    text-align: center; 
-    margin-left: 20px;
+.project1{
+    position: relative; 
+    width: 50%; 
+    height: 500px;
 }
+
+.projec1tbox{
+    position: absolute; 
+    top: 0%; 
+    left: 5px;
+    margin-left: 6px; 
+    background-color:rgb(141, 198, 63); 
+    word-wrap: break-word;
+    color: white; 
+    width: 270px; 
+    height: 210px; 
+    border-top-left-radius: 50px;
+}
+
+.project2{
+    width: 50%; 
+}
+
+.figurecontainer{
+    background-image: url(images/background\ lue.jpg); 
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin-bottom: 50px;
+}
+
+.figures1{
+    border-radius: 50%;
+    background-color: white;
+    width: 120px;
+    height: 120px; 
+    margin-left: 7%; 
+    margin-top: 100px;
+    margin-right: 10%;
+}
+
+.figures2{
+    border-radius: 50%;
+    background-color: white; 
+    width: 120px;
+    height: 120px; 
+    margin-top: 100px;
+    margin-right: 15%;
+    margin-left: 5%;
+}
+
+.figures3{
+    border-radius: 50%;
+    background-color: white; 
+    width: 120px;
+    height: 120px; 
+    margin-top: 100px;
+    margin-right: 15%;
+}
+
+.testimonials{
+    width: 1000px; 
+    margin-left: -450px;
+}
+
+.accaimg{
+    margin-left: 37%;
+}
+
+/* Media Query */
+
+@media screen and (min-width: 1200px) {
+
+    .largecards{
+        width:33% ;
+        height:280px ;
+        margin: 35px 0;
+        position: relative;
+        cursor: pointer;
+    }
+    .card1 {
+        background-color:rgba(172, 255, 47, 0.233) ;
+        border-radius: 10px;
+        width: 16%;
+        height: 150px;
+        text-align: center;
+    }
+    
+    .card2,.card3,.card4,.card5,.card6 {
+        background-color:rgba(172, 255, 47, 0.233) ;
+        border-radius: 10px;
+        width: 15%;
+        height: 150px;
+        text-align: center;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .card2,.card3,.card4,.card5,.card6{
+margin-left: 5px;
+width: 155px;
+    }
+    .card1{
+        width: 155px;
+    }
+    .largecards{
+        width: 300px;
+    }
+    .largecardbtn{
+        width: 265px;
+    }
+    .largcardcontainer{
+        margin-left: 2%;
+    }
+    .figures1{
+        margin-left: 7%; 
+        margin-right: 8%;
+    }
+    .figures2{
+        margin-right: 12.5%;
+        margin-left: 5%;
+    }
+    .figures3{
+        margin-right: 12.5%;
+    }
+    .testimonials{
+        width: 850px; 
+        margin-left: -385px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .email{
+
+    }
+    .introimg{
+        height: 70%;
+        margin-top: 10%;
+    }
+    .text{
+        margin-top: 5%;
+    }
+    .input{
+        width: 100%;
+        margin-top: -4%;
+    }
+    .extra{
+margin-left: 4%;
+    }
+    .extra3{
+        width: 75%;
+        margin-bottom: 1.5%;
+    }
+    .extra3 input{
+        width: 100%;
+    }
+    .bloodbank{
+        margin-left:8% ;
+        width: 280px;
+    }
+    .kifalat{
+        margin-left:8% ;
+    }
+    .medical{
+        margin-left: ;
+    }
+    .food{
+        margin-left: ;
+    }
+    .quickdonate{
+        margin-left: 10%;
+    }
+    .card1,.card2,.card3,.card4,.card5,.card6{
+        margin-left: 7.5%;
+        margin-top: 2%;
+    }
+    .largecards{
+        width: 50%;
+    }
+    .largecardbtn{
+        width: 323px;
+    }
+    .project1,.project2{
+        width: 100%;
+    }
+    .project2{
+        margin-top: 5%;
+    }
+    .projec1tbox{
+        width: 50%; 
+        height: 50%; 
+        padding-top: 50px;
+    }
+    .figures1{
+        margin-left: 4%; 
+        margin-right: 8%;
+    }
+    .figures2{
+        margin-right: 8%;
+        margin-left: 0%;
+    }
+    .figures3{
+        margin-right: 8%;
+    }
+    .testimonials{
+        width: 600px; 
+        margin-left: -250px;
+    }
+    .socialaccounts{
+        width: 15%;
+        height: 12%;
+    }
+    .accaimg{
+        margin-left: 30%;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .email{
+
+    }
+    .introimg{
+        height: 70%;
+        margin-top: 10%;
+    }
+    .text{
+        margin-top: 5%;
+    }
+    .textsize{
+        font-size: medium;
+    }
+    .textsize2{
+        font-size: 0.8em;
+    }
+    .input{
+        width: 95%;
+        margin-top: -4%;
+    }
+    .extra{
+        margin-left: 5%;
+    }
+    .extra3{
+        width: 75%;
+        margin-bottom: 1.5%;
+    }
+    .extra3 input{
+        width: 100%;
+    }
+    .bloodbank{
+        margin-left:14% ;
+        width: 280px;
+    }
+    .kifalat{
+        margin-left:25% ;
+        width: 200px;
+    }
+
+    .maindetail{
+        position: relative;
+    }
+    .medical{
+        position: absolute;
+        bottom: -42%;
+        left: 6%;
+    }
+    .food{
+        position: absolute;
+        bottom: -42%;
+        left: 34%;
+    }
+    .quickdonate{
+        position: absolute;
+        bottom: -42%;
+        left: 59%;
+    }
+        .card1{
+            margin-left: 0%;
+            margin-top: 2%;
+            width: 100%;
+        }
+        .card2,.card3,.card4,.card5,.card6{
+            margin-top: 2%;
+            width: 100%;
+            margin-left: 0%;
+        }
+        .largecards{
+            width: 100%;
+            margin-left: 0%;
+        }
+        .largecardbtn{
+            width: 505px;
+        }
+        .project1,.project2{
+            width: 100%;
+            margin-left: 0%;
+        }
+        .projec1tbox{
+            width: 50%; 
+            height: 42%; 
+        }
+        .figures1{
+            margin-left: 7%; 
+            margin-right: 2%;
+        }
+        .figures2{
+            margin-right: 7%;
+            margin-left: 5%;
+        }
+        .figures3{
+            margin-right: 12%;
+        }
+        .figures4{
+            position: absolute;
+            bottom: 25%;
+            left: 38%;
+        }
+        .figurecontainer{
+            background-image: url(images/background\ lue.jpg); 
+            background-repeat:no-repeat;
+            background-size: cover;
+            height: 700px;
+            margin-bottom: 50px;
+            position: relative;
+        }
+        .testimonials{
+            width: 450px; 
+            margin-left: -195px;
+        }
+        .socialaccounts{
+            width: 12%;
+            height: 9%;
+        }
+        .accaimg{
+            margin-left: 22%;
+        }
+    }
+
+@media screen and (max-width: 575px) {
+    .email{
+
+    }
+    .introimg{
+        height: 70%;
+        margin-top: 10%;
+        display: none;
+    }
+    .text{
+        margin-top: 5%;
+    }
+    .textsize{
+        font-size: medium;
+    }
+    .textsize2{
+        font-size: 0.8em;
+    }
+    .input{
+        width: 95%;
+        margin-top: -4%;
+    }
+    .extra{
+        margin-left: 5%;
+    }
+    .extra3{
+        width: 75%;
+        margin-bottom: 1.5%;
+    }
+    .extra3 input{
+        width: 100%;
+    }
+    .bloodbank{
+        margin-left:14% ;
+        width: 280px;
+    }
+    .kifalat{
+        margin-left:25% ;
+        width: 200px;
+    }
+
+    .maindetail{
+        position: relative;
+    }
+    .medical{
+        position: absolute;
+        bottom: -42%;
+        left: 6%;
+    }
+    .food{
+        position: absolute;
+        bottom: -42%;
+        left: 34%;
+    }
+    .quickdonate{
+        position: absolute;
+        bottom: -42%;
+        left: 59%;
+    }
+        .card1{
+            margin-left: 0%;
+            margin-top: 2%;
+            width: 100%;
+        }
+        .card2,.card3,.card4,.card5,.card6{
+            margin-top: 2%;
+            width: 100%;
+            margin-left: 0%;
+        }
+        .largecards{
+            width: 100%;
+            margin-left: 0%;
+        }
+        .largecardbtn{
+            width: 505px;
+        }
+        .project1,.project2{
+            width: 100%;
+            margin-left: 0%;
+        }
+        .projec1tbox{
+            width: 50%; 
+            height: 42%; 
+        }
+        .figures1{
+            margin-left: 18%; 
+            margin-right: 13%;
+        }
+        .figures2{
+            margin-right: 7%;
+            margin-left: 5%;
+        }
+        .figures3{
+            position: absolute;
+            bottom: 25%;
+            left: 18%;
+        }
+        .figures4{
+            position: absolute;
+            bottom: 25%;
+            left: 57%;
+        }
+        .figurecontainer{
+            background-image: url(images/background\ lue.jpg); 
+            background-repeat:no-repeat;
+            background-size: cover;
+            height: 700px;
+            margin-bottom: 50px;
+            position: relative;
+        }
+        .testimonials{
+            width: 350px; 
+            margin-left: -160px;
+            font-size: small;
+        }
+        .socialaccounts{
+            width: 12%;
+            height: 9%;
+        }
+        .accaimg{
+            margin-left: 22%;
+        }
+    }
